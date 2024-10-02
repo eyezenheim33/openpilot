@@ -31,7 +31,7 @@ MAX_HEIGHT_STD = np.exp(-3.5)
 # This is at model frequency, blocks needed for efficiency
 SMOOTH_CYCLES = 10
 BLOCK_SIZE = 100
-INPUTS_NEEDED = 5   # Minimum blocks needed for valid calibration
+INPUTS_NEEDED = 15   # Minimum blocks needed for valid calibration
 INPUTS_WANTED = 50   # We want a little bit more than we need for stability
 MAX_ALLOWED_YAW_SPREAD = np.radians(2)
 MAX_ALLOWED_PITCH_SPREAD = np.radians(4)
